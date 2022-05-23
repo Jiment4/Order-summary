@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    margin: 20px;
+}
+
+.card {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 450px;
+    background-color: white;
+    border-radius: 26px;
+    margin: 20px;
+}
+
+.cardFlex {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+}
+
+.flexCenter p {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.borderImg {
+    border-radius: 26px 26px 0px 0px;
+}
+
+.anual {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.year {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.cardPeque {
+    width: 350px;
+    height: 100px;
+    background-color: #F8F9FE;
+    border-radius: 16px;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 50px;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.cancel {
+    font-weight: 900;
+    margin: 10px;
+    padding: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
